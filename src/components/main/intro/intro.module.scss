@@ -1,0 +1,73 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  min-height: 100vh;
+}
+
+.bggradient {
+  position: absolute;
+  z-index: -4;
+  top: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: rgb(237 28 37);
+  background: radial-gradient(
+    circle,
+    rgb(237 28 37 / 100%) 0%,
+    rgb(237 28 37 / 100%) 12%,
+    rgb(235 28 37 / 100%) 27%,
+    rgb(175 42 48 / 100%) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgb(237 28 37 / 100%) 0%,
+    rgb(237 28 37 / 100%) 12%,
+    rgb(235 28 37 / 100%) 27%,
+    rgb(175 42 48 / 100%) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgb(237 28 37 / 100%) 0%,
+    rgb(237 28 37 / 100%) 12%,
+    rgb(235 28 37 / 100%) 27%,
+    rgb(175 42 48 / 100%) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ed1c25",endColorstr="#af2a30",GradientType=1);
+}
+
+.tree2,
+.tree1 {
+  position: absolute;
+  z-index: -2;
+  top: 60%;
+  width: 100vw;
+}
+
+.tree1 {
+  position: absolute;
+  z-index: -3;
+  top: 55%;
+}
+
+.moonLogo {
+  position: absolute;
+  z-index: -2;
+  top: 35%;
+  left: 15%;
+
+  width: 25%;
+}
+
+.snow {
+  position: absolute;
+
+  width: 100vw;
+  height: 200vh;
+
+  opacity: 0.5;
+  background-image: url('../../assets/images/snow.png');
+  background-repeat: repeat;
+}

@@ -1,0 +1,47 @@
+.wave {
+  width: 100%;
+}
+
+.downwave {
+  margin-top: -4px;
+}
+
+.flexWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  height: 200px;
+  background-color: var(--color-light-100);
+}
+
+.subcategories {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+
+  min-width: 60%;
+  max-width: fit-content;
+  margin: auto;
+
+  font-size: calc(1.375rem + 1.5vw);
+  color: var(--color-main-700);
+  white-space: nowrap;
+
+  transition: 0.2s ease-in-out;
+
+  p {
+    &:hover {
+      color: var(--color-secondary-100);
+    }
+  }
+}
+
+.searchGroup {
+  display: flex;
+  align-items: flex-start;
+  width: 60%;
+  margin: auto;
+}

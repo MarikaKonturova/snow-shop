@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+
+  width: 329px;
+  height: 400px;
+  padding-top: 30px;
+
+  font-size: var(--font-size-xl);
+  color: var(--color-main-700);
+  text-align: center;
+
+  background-image: url('../../../../assets/images/card.svg');
+}
+
+.textGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    margin: 0;
+  }
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  padding: 1rem 2rem;
+  font-size: var(--font-size-l);
+}

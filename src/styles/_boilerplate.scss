@@ -30,6 +30,8 @@ a:visited {
 }
 
 body {
+  scroll-behavior: smooth;
+
   margin: 0;
   padding: 0;
 
@@ -37,5 +39,5 @@ body {
   line-height: var(--line-height-m);
   color: var(--color-light-100);
 
-  background-color: var(--color-dark-900);
+  background-color: var(--color-main-700);
 }
